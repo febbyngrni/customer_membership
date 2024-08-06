@@ -1,22 +1,22 @@
 ### Python Project:
 # Customer Membership
 
-Project ini merupakan final project dari course **Basic Python Programming** Pacmann. Pada project kali ini, saya diminta untuk membuat suatu program sederhana untuk platform E-Commerce, PacCommerce. Terdapat 3 tier pada PacCommerce, yaitu Platinum, Gold dan Silver. Dari masing-masing tier tersebut memiliki benefit yang berbeda-beda yaitu sebagai berikut:
+This project is the final project of Pacmann's Basic Python Programming course. In this project, I was asked to create a simple program for the E-Commerce platform, PacCommerce. There are 3 tiers in PacCommerce, namely Platinum, Gold and Silver. Each of these tiers has different benefits, which are as follows:
 
 ![Screenshot (217)](https://github.com/febbyngrni/customer_membership/assets/152588325/4c97cb19-c6fe-4adf-a4c0-e2d04b48003c)
 
 ## Case Description
-PacCommerce ingin membuat sistem untuk melakukan prediksi dari membership user berdasarkan monthly expense dan monthly income dari masing-masing user. 
+PacCommerce wants to create a system to predict user membership based on monthly expense and monthly income of each user.
 
 ![Screenshot (218)](https://github.com/febbyngrni/customer_membership/assets/152588325/baee5620-8191-4177-84b4-7306bfedd685)
 
-Untuk prediksi tersebut, PacCommerce menggunakan pendekatan berdasarkan jarak dengan menggunakan **Euclidean Distance**. Membership akan dipilih berdasarkan jarak yang paling dekat dengan input.
+For this prediction, PacCommerce uses a distance-based approach using **Euclidean Distance**. Members are selected based on the closest distance to the input.
 
 ![Screenshot (219)](https://github.com/febbyngrni/customer_membership/assets/152588325/9bd93836-5ba9-4591-abb1-b7f3ab60db41)
 
 ## Objective
-Membuat fitur dimana user dapat melakukan hal berikut:
-1. Menunjukkan all tier dan membership yang tersedia di PacCommerce
-2. Menunjukkan ketentuan jumlah monthly exepense dan monthly income yang dibutukan dari masing-masing membership
-3. Melakukan prediksi user masuk ke dalam membership mana berdasarkan parameter expense dan income
-4. Melakukan kalkulasi total belanja akhir berdasarkan tier membership PacCommerce
+Create a feature that allows users to do the following:
+1. View all tiers and memberships available in PacCommerce
+2. Show the monthly cost and required monthly income for each membership 3.
+3. Predicts which membership a user belongs to based on expense and income parameters
+4. Calculate the final total expense based on the PacCommerce membership level 4.
